@@ -43,7 +43,7 @@ head>
                 <h3><b>Voorbeelden</b></h3>
                 <p style="color: #1abc9c;"><b>Hieronder ziet u een aantal designs:</b></p>
                 <div class="test">
-                    <img class="design-img" src="afbeeldingen/kleding3.jpg"><br>
+                    <img class="design-img" src="../afbeeldingen/googlehome.jpg"><br>
                     <img class="design-img" src="afbeeldingen/kleding4.jpg"><br>
                     <img class="design-img" src="afbeeldingen/kleding5.jpg">
                 </div>
