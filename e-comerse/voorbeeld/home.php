@@ -1,14 +1,4 @@
-<?php
 
-require_once('../backend/partial/header.php');
-require_once('../backend/Post.php');
-session_start();
-$PostIns = new Post();
-if(isset($_POST['addPost'])){
-	echo $PostIns->addPost($_POST['title'], $_POST['description'], $_POST['content']);
-}
-
-?>
 <!doctype html>
 <html>
 head>
@@ -18,7 +8,7 @@ head>
     <meta name="keywords" content="Devwear, webshop, Hoodie, T-shirt, Caps, Developers, Clothing">
     <meta name="author" content="Fenno Elzinga">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/style.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
@@ -92,8 +82,3 @@ head>
 
 </body>
 </html>
-<?php
-
-require_once('../partial/footer.php');
-
-?>
